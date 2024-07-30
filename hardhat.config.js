@@ -5,7 +5,7 @@ require("@nomicfoundation/hardhat-toolbox");
 const PRIVATE_KEY = vars.get("PRIVATE_KEY");
 
 module.exports = {
-  solidity: "0.8.19",
+  solidity: "0.8.20",
   defaultNetwork: "swisstronik",
   networks: {
     swisstronik: {
